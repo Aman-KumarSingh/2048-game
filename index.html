@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="container" id="box">
+      <div class="info">
+        <h1>2048</h1>
+        <div class="score-container">
+          <div class="score-title">score</div>
+          <span id="score">0</span>
+        </div>
+      </div>
+      <span id="result">Join the numbers and get to the <b>2048</b> tile!</span>
+      <div class="grid" id="grid"></div>
+    </div>
+
+  </body>
+  <script>
+    var grid=document.getElementById('grid');
+    var  box=document.getElementById('box');
+    var y=parseInt(x);
+      console.log(y);
+   y=y*120;
+   box.style["width"]=y+"px";
+    grid.style["height"]=y+"px";
+    grid.style["width"]=y+"px";
+    
+
+  </script>
+</html>

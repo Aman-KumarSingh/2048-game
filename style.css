@@ -1,0 +1,65 @@
+
+
+body {
+  background-color: linen;
+  display: flex;
+  justify-content: center;
+  font-family: "Clear Sans", "Helvetica Neue"
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 0.7;
+  color: #229090;
+  margin: 0px;
+}
+
+.container {
+  margin-top: 30px;
+  
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  background-image:linear-gradient(#eff4f4,#75c5c8,#229090);
+  border: 7px solid #75c5c8;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 3px;
+  background-color: #75c5c8;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.6;
+}
+
+.score-container {
+  text-align: center;
+  width: 70px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #229090;
+  color: #FFFFFF;
+}
+
+#score {
+  font-size: 30px;
+}
+
+.score-title {
+  font-size: 16px;
+}
